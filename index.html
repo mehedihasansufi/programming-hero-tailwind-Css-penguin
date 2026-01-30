@@ -1,38 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="keywords" content="Tailwild Css practice">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="Author" content="Mehedi Hasan">
-  <meta name="description" content="There is explore the framework of undate version Tailwild Css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="Tailwild Css practice" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="Author" content="Mehedi Hasan" />
+  <meta name="description" content="There is explore the framework of undate version Tailwild Css" />
   <title>Penguin Fashion with Tailwild Css</title>
 
   <!-- google font -->
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
 
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/style.css" />
 </head>
 
 <body>
-
-  <header class="md:h-[90vh] bg-[#FFFBF0] ">
+  <header class="md:h-[90vh] bg-[#FFFBF0]">
     <nav class="flex w-[80vw] m-auto justify-between pt-10 items-center">
-      <div class="logo w-40 ">
-        <img class="w-full" src="./icons/logo.png" alt="">
+      <div class="logo w-40">
+        <img class="w-full" src="./icons/logo.png" alt="" />
       </div>
 
-      <div class="hamburger">
-
-      </div>
+      <div class="hamburger"></div>
       <div>
-        <ul class="md:flex gap-8 hidden ">
+        <ul class="md:flex gap-8 hidden">
           <li><a class="font-medium text-lg" href="">Home</a></li>
           <li><a class="font-medium text-lg" href="">Product</a></li>
           <li><a class="font-medium text-lg" href="">Contact Us</a></li>
@@ -40,54 +37,127 @@
         </ul>
       </div>
 
-
-      <button class="text-lg  sm:hidden ">
-        &#9776; </button>
+      <!-- hamburger button -->
+      <button class="text-lg sm:hidden">&#9776;</button>
     </nav>
-
-
-
-
 
     <!-- banner -->
 
-
-    <div class="banner md:w-[80vw] w-[90vw] mx-auto mt-8 md:mt-16 md:flex justify-between items-center ">
-
-
+    <div class="banner md:w-[80vw] w-[90vw] mx-auto mt-8 md:mt-16 md:flex justify-between items-center">
       <!-- banner contain -->
 
-
       <div class="banner-contain md:w-2/6 flex flex-col gap-2">
-        <h2 class="text-6xl uppercase leading-normal font-semibold bebas-neue-regular"><span class="text-[#FABE4C]">BE
-            THe Penguin</span>
-          <br> of winter
+        <h2 class="text-6xl uppercase leading-normal font-semibold bebas-neue-regular">
+          <span class="text-[#FABE4C]">BE THe Penguin</span> <br />
+          of winter
         </h2>
-        <p class="text-lg">Lorem Ipsum is simply dummy text of the printing
-          and typesetting industry.</p>
+        <p class="text-lg">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
 
         <div class="btn flex justify-center md:justify-start mt-2">
-
           <button
-            class=" py-4 px-8 rounded-xl flex items-center text-white gap-2 bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
-            <img class="h-8" src="./icons/shopping-cart 1.png" alt="">
-            Buy now</button>
+            class="py-4 px-8 rounded-xl flex items-center text-white gap-2 bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+            <img class="h-8" src="./icons/shopping-cart 1.png" alt="" />
+            Buy now
+          </button>
         </div>
       </div>
-
 
       <!-- model -->
 
       <div class="mt-8 md:mt-0 md:w-1/3 pb-2 md:pb-0 flex justify-center -ml-4 md:ml-0">
-        <img class="w-full " src="./images/model.png" alt="">
+        <img class="w-full" src="./images/model.png" alt="" />
       </div>
-
     </div>
   </header>
 
+  <!-- main -->
+  <main class="w-10/12 mx-auto">
+    <!-- woman container -->
+    <div class="woman-container mt-10">
+      <h2 class="text-3xl font-medium bebas-neue-regular">Woman Jacket</h2>
+
+      <div class="card-container mt-5 mb-10 grid grid-cols-3 gap-12">
 
 
+        <!-- first card -->
+        <div class="card max-w-md p-6 bg-white shadow-lg rounded-xl flex flex-col gap-5">
+          <div class="flex justify-center py-6 bg-[#F1F1F1] w-full rounded-xl">
+            <img class="h-60" src="./images/jacket-1.png" alt="" />
+          </div>
 
+          <div class="contain flex flex-col gap-6">
+            <h3 class="font-semibold text-xl">Yellow Coat Jacket</h3>
+            <p class="w-10/12">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+
+            <div class="flex justify-between items-center ">
+              <span class="text-[#FABE4C] text-3xl bebas-neue-regular">$234</span>
+              <button
+                class="flex items-center gap-3 py-3 px-4 rounded-xl text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+                <img class="h-4" src="./icons/shopping-cart 1.png" alt="" />
+                BUY NOW
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- 2nd card -->
+        <div class="card max-w-md p-6 bg-white shadow-lg rounded-xl flex flex-col gap-5">
+          <div class="flex justify-center py-6 bg-[#F1F1F1] w-full rounded-xl">
+            <img class="h-60" src="./images/jacket-2.png" alt="" />
+          </div>
+
+          <div class="contain flex flex-col gap-6">
+            <h3 class="font-semibold text-xl">Ladies Jacket</h3>
+            <p class="w-10/12">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+
+            <div class="flex justify-between items-center">
+              <span class="text-[#FABE4C] text-3xl bebas-neue-regular">$234</span>
+              <button
+                class="flex items-center gap-3 py-3 px-4 rounded-xl text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+                <img class="h-4" src="./icons/shopping-cart 1.png" alt="" />
+                BUY NOW
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- 3rd card -->
+        <div class="card max-w-md p-6 bg-white shadow-lg rounded-xl flex flex-col gap-5">
+          <div class="flex justify-center py-6 bg-[#F1F1F1] w-full rounded-xl">
+            <img class="h-60" src="./images/jacket-3.png" alt="" />
+          </div>
+
+          <div class="contain flex flex-col gap-6">
+            <h3 class="font-semibold text-xl">Woman Leather Jacket</h3>
+            <p class="w-10/12">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+
+            <div class="flex justify-between items-center">
+              <span class="text-[#FABE4C] text-3xl bebas-neue-regular">$234</span>
+              <button
+                class="flex items-center gap-3 py-3 px-4 rounded-xl text-white bg-gradient-to-r from-[#A4BC46] to-[#85A019]">
+                <img class="h-4" src="./icons/shopping-cart 1.png" alt="" />
+                BUY NOW
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 
 </html>
